@@ -15273,10 +15273,6 @@ button.nav-item.is-active {
   height: 4.5rem;
 }
 
-body {
-  background: whitesmoke;
-}
-
 .m-t-5 {
   margin-top: 5px;
 }
@@ -15759,5 +15755,24 @@ body {
 
 .is-fullwidth {
   width: 100%;
+}
+
+.side-menu {
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  width: 200px;
+  background-color: whitesmoke;
+}
+
+.management-area {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
 }
 
